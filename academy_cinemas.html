@@ -50,7 +50,7 @@
             <div class="row">
               <div class="col-sm">
             
-                <img class="img-fluid" src="./IMG/pdx.jpg" alt="Portland">
+                <img class="img-fluid" src="IMG/563074_l.jpg" alt="Portland">
 
 
               </div>
@@ -66,24 +66,100 @@
               </div>
               <div class="col-sm">
 
-                <h3>Now Playing...</h3>
+
+                <!--(MY Edit) it allows the user to find the show times as well as check movie reviews before they make their choice..
+                      didn't spend too much time on it but later on i want to make this way more cool. -->
+                <h3>Now Playing...(assignment edit)</h3>
                 <ul class="list-group my-5">
                     <li class="list-group-item">
-                      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Kong: Skull Island">
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-placement="top" title="Kong: Skull Island"data-target="#example3">
                         Kong: Skull Island
                       </button>
                     </li>
                     <li class="list-group-item">
-                      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title=" Ghost In The Shell">
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-placement="top" title=" Ghost In The Shell"data-target="#example2" >
                         Ghost In The Shell
                       </button>
                     </li>
                     <li class="list-group-item">
-                      <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Beauty And The Beast">
+                      <button type="button"  class="btn btn-primary" data-toggle="modal"  title="Beauty And The Beast" data-target="#example" >
                         Beauty And The Beast
                       </button>
                     </li>
                   </ul>
+                  <!--Kong: Skull Island-->
+                  <div class="modal fade" id="example3" tabindex="-1" role="dialog" aria-labelledby="exampleexampleexample" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleexampleexample">Kong: Skull Island</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          Current Show Times:
+                          <span class="badge badge-primary">11:30 A.M</span>
+                          <span class="badge badge-primary">12:00 P.M</span>
+                          <span class="badge badge-primary">1:30 P.M</span>
+                          <span class="badge badge-primary">2:45 P.M</span>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <a class="btn btn-primary"  href="https://www.rottentomatoes.com/m/kong_skull_island">Click to see a review</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Ghost in the shell-->
+                  <div class="modal fade" id="example2" tabindex="-1" role="dialog" aria-labelledby="exampleexampleexample" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleexampleexample">Ghost In The Shell</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          Current Show Times:
+                          <span class="badge badge-primary">11:30 A.M</span>
+                          <span class="badge badge-primary">12:00 P.M</span>
+                          <span class="badge badge-primary">1:30 P.M</span>
+                          <span class="badge badge-primary">2:45 P.M</spa>    
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <a class="btn btn-primary"  href="https://www.rottentomatoes.com/m/ghost_in_the_shell_2017">Click to see a review</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Beauty and the beast modal-->
+                  <div class="modal fade" id="example" tabindex="-1" role="dialog" aria-labelledby="exampleexample" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleexample">Beauty And The Beast</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          Current Show Times:
+                          <span class="badge badge-primary">11:30 A.M</span>
+                          <span class="badge badge-primary">12:00 P.M</span>
+                          <span class="badge badge-primary">1:30 P.M</span>
+                          <span class="badge badge-primary">2:45 P.M</span>
+                          
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <a class="btn btn-primary"  href="https://www.rottentomatoes.com/m/beauty_and_the_beast_2017">Click to see a review</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
 
               </div>
@@ -96,7 +172,7 @@
                   <div class="row ">
                     <div class="col-sm">
                       <div class="card" style="width: 18rem;">
-                        <img src="./IMG/beautyandthebeast.jpg" class="card-img-top" alt="...">
+                        <img src="./IMG/planets.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Beauty And The Beast</h5>
                           <p class="card-text">A young prince (Robby Benson) is cursed by an enchantress to remain a beast
@@ -262,7 +338,7 @@
       
 
 
-            
+          <!--Footer-->
           <div class="container my-5">
             <ul class="nav nav-inline">
               <li class="nav nav-inline">
